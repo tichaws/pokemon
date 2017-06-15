@@ -1,0 +1,108 @@
+.containner {
+	margin-top: 2%;
+}
+
+.containnerPg {
+	margin-top: 1%;
+}
+
+.containnertb {
+	margin-top: 2%;
+}
+
+.bottom {
+	margin-bottom: 1.5%;
+}
+
+.table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.th, .td {
+	text-align: left;
+	padding: 8px;
+}
+
+.tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+.th {
+	background-color: #C82D41;
+	color: white;
+}
+/*----- Tabs -----*/
+.tabs {
+	display: inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.tab-links li {
+	margin: 0px 5px;
+	float: left;
+	list-style: none;
+}
+
+.tab-links a {
+	padding: 9px 15px;
+	display: inline-block;
+	border-radius: 3px 3px 0px 0px;
+	background: #F299A4;
+	font-size: 16px;
+	font-weight: 600;
+	color: #4c4c4c;
+	transition: all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background: #F9566B;
+	text-decoration: none;
+}
+
+li.active a, li.active a:hover {
+	background: #C82D41;
+	color: #fff;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding: 15px;
+	border-radius: 3px;
+	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+	background: #C82D41;
+}
+
+.tab {
+	display: none;
+}
+
+.tab.active {
+	display: block;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("http://upic.me/i/pp/aaaaa.png");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+    filter: alpha(Opacity=80);
+	opacity: 0.8;
+}
+
